@@ -20,6 +20,14 @@ namespace GradeCalculator
             else grade = "F";
 
             Console.WriteLine($"Your grade is: {grade}");
+
+            // Average Score Calculation
+
+            Console.Write("Enter number of assignments: ");
+            int assignments = int.Parse(Console.ReadLine());
+            double average = (double)score / assignments;
+            Console.WriteLine($"Average score: {average:F2}");
+
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
