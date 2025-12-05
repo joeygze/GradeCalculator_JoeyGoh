@@ -1,5 +1,7 @@
 ﻿using System;
 
+// This program calculates the letter grade based on a numeric score input by the user.
+
 namespace GradeCalculator
 {
     class Program
